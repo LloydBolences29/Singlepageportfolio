@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "react-scripts start",
-       "build": "react-scripts build",
-       "test": "react-scripts test",
-       "predeploy": "npm run build",
-       "deploy": "gh-pages -d build",
-       "eject": "react-scripts eject",
+       "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
